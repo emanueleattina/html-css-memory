@@ -5,7 +5,70 @@
   box-sizing: border-box;
 }
 
+/* rosa #E61986 */
+/* azzurro #ADD8E6 */
+
 body
 {
   background: #ADD8E6;
+  font-family: 'Potta One', cursive;
+}
+
+.titolo h1
+{
+  color: white;
+  font-size: 55px;
+  text-align: center;
+  text-shadow: 0 0 5px grey;
+}
+
+.container
+{
+  width: 900px;
+  margin: auto;
+}
+
+.row
+{
+  margin-top: 30px;
+}
+
+.row::after
+{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+
+.card
+{
+  width: 22%;
+  float: left;
+  height: 220px;
+  background: white;
+  border-radius: 10px;
+  background: url("../img/pattern.png");
+  background-repeat: repeat-y;
+  background-size: 100%;
+  box-shadow: 0 0 5px grey;
+}
+
+.card:hover
+{
+  width: 22%;
+  float: left;
+  height: 220px;
+  background: white;
+  border-radius: 10px;
+  background: url("../img/pattern.png");
+  background-repeat: repeat-y;
+  background-size: 100%;
+  box-shadow: 0 0 5px grey;
+}
+
+.mr-4
+{
+  margin-right: 4%;
 }
