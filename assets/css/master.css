@@ -40,35 +40,45 @@ body
   clear: both;
 }
 
-
+.mr-4
+{
+  margin-right: 4%;
+}
 
 .card
 {
   width: 22%;
   float: left;
   height: 220px;
-  background: white;
   border-radius: 10px;
-  background: url("../img/pattern.png");
+  background-image: url("../img/pattern.png");
   background-repeat: repeat-y;
   background-size: 100%;
   box-shadow: 0 0 5px grey;
+  text-align: center;
+  padding-top: 8px;
+}
+
+img, span
+{
+  visibility: hidden;
+}
+
+.card:hover img
+{
+  width: 80%;
+  visibility: visible;
+}
+
+.card:hover span
+{
+  color: #E61986;
+  font-size: 20px;
+  text-shadow: 0 0 2px grey;
+  visibility: visible;
 }
 
 .card:hover
 {
-  width: 22%;
-  float: left;
-  height: 220px;
   background: white;
-  border-radius: 10px;
-  background: url("../img/pattern.png");
-  background-repeat: repeat-y;
-  background-size: 100%;
-  box-shadow: 0 0 5px grey;
-}
-
-.mr-4
-{
-  margin-right: 4%;
 }
